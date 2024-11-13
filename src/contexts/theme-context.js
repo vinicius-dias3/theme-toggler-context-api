@@ -1,5 +1,4 @@
 import { createContext, useState } from "react"
-import { saveThemeLocalStorage } from "../utils/themeStorage"
 
 export const themes = {
     light: {
