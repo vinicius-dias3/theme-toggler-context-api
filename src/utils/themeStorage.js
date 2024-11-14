@@ -3,6 +3,6 @@ export const saveThemeLocalStorage = (currentTheme) => {
 }
 
 export const loadThemeLocalStorage = () => {
-    const storedTheme = JSON.parse(localStorage.getItem)('themeObject') || []
+    const storedTheme = JSON.parse(localStorage.getItem('themeObject'))
     return storedTheme
 }
